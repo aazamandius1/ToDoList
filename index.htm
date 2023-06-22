@@ -10,12 +10,19 @@
 </head>
 <body>
     <h1>To-do List</h1>
-    <div class="container">
-        <input id="inputField" type="text" > <button id="addToDo">+</button>
-        <div class="to-dos container-item" id="toDoContainer"></div>
-        <div class="general container-item" id="generalContainer"></div>
-        <div class="today container-item" id="todayContainer"></div>
-        <div class="done container-item" id="doneContainer"></div>
+    <div id="header" class="container">
+        <div id="input">
+            <input id="inputField" type="text" > <button id="addTaskButton">+</button>
+        </div>
+    </div>
+    <div id="mainBoard">
+        <div id="menu" class="container">
+            <button id="inboxButton">INBOX</button>
+            <button id="todayButton">TODAY</button >
+            <button id="doneButton">DONE</button> 
+        </div>
+
+    <div id="taskField" class="container-fluid"></div>
     </div>
 
     <script src="main.js"></script>

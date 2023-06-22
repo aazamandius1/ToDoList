@@ -1,60 +1,27 @@
-/* style.css */
+#header {
+  display: flex;
+  min-width: 222px;
+}
 
-html, body {
-    width: 50%;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container {
-    width: 1500px;
-  }
-  
+#input {
+  margin: 0 auto;
+}
 
-  .container-item {
-    width: 25%;
-    /*border: 1px solid green;*/
-  }
-  
-   #inputField {
-    width: 150px;
-    height: 30px;
-    border: 1px solid black;
-    outline: none;
-    font-size: 25px;
-    vertical-align: middle;
-  }
-  
-  #addToDo {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    outline: none;
-    font-size: 30px;
-    vertical-align: middle;
-  }
-  
-  .to-dos {
-    margin-top: 25px;
-  }
-  
-  .todo-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .task-square {
-    height: 50px;
-    width: 100px;
-    margin-right: 10px;
-  }
-  
-  .task-priority {
-    margin-left: auto;
-  }
-  
-  .task-priority button {
-    margin-right: 5px;
-  }
-  
+#spacer {
+  width: 30%;
+}
+#mainBoard {
+  width: 100%;
+  background-color: burlywood;
+}
+
+#menu {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+}
+
+h1 {
+  text-align: center;
+}
